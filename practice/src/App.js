@@ -1,18 +1,37 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import Routes from "./routes";
+import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="demo-big-content">
+        <Layout>
+          <Header title="Matthieu's World" scroll>
+            <Navigation>
+              <Link to="/">Home</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+          </Header>
+          <Drawer title="Title">
+            <Navigation>
+              <Link to="/">Home</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Routes />
+          </Content>
+        </Layout>
       </div>
     );
   }
