@@ -5,7 +5,7 @@ class Resume extends Component {
     return (
       <div>
         <h1>Resume Page</h1>
-        <p color="red">Hopefully you find my resume intriguing!</p>
+        <p>Hopefully you find my resume amazing and then you hire me!</p>
       </div>
     );
   }

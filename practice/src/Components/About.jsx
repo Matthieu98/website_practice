@@ -34,6 +34,35 @@ class About extends Component {
             expanding my skillset.
           </p>
         </div>
+        <div>
+          <h4>Hobbies & Interests</h4>
+          <p>
+            I enjoy playing squash and am on my school's squash team. I started
+            playing in high school with my dad for fun but quickly found that I
+            loved the sport. I enjoy rock climbing, playing soccer, playing
+            squash, hiking, camping, reading, and running but don't do enough of
+            any of them because I always think of what I should do next instead
+            of actually just doing it.
+          </p>
+        </div>
+        <div>
+          <h4>School Life</h4>
+          <p>
+            At school I am the Vice-Chair of the Student Organization Funding
+            Committee which is an organization that receives money from the
+            school to then allocate to all of the student organzations on
+            campus. I am the Financial Advisor of the sqaush team, and am on the
+            team. I am the treasurer of the student organzation Canvases of Care
+            which goes to nursing homes and paints art for the residents in
+            order to try to make their stay happier. I am a manager in Catering
+            at Boston College and also work in at the desk in the Computer
+            Science Department helping to answer any questions students have
+            about the major/minor and their requirements as well as about
+            different professors hours and office locations. Then I enjoy
+            hanging out with any of my 6 roommates or other friends either
+            eating food, playing super smash bros, or listening to music.
+          </p>
+        </div>
       </div>
     );
   }
